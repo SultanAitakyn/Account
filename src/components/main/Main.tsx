@@ -4,7 +4,7 @@ import badge from '../../assets/img/badge.png';
 import suitcase from '../../assets/img/suitcase.png';
 
 function Main() {
-    const accountItems = [1, 2, 3].map((v, k) => {
+    const accountItems = [1, 2, 3, 4].map((v, k) => {
         return <div className="account-item mb-4" key={k}>
             <div className="operation-item__badge">
                 <img className="badge__out-img" src={badge} alt="badge"/>
@@ -15,7 +15,7 @@ function Main() {
         </div>
     });
 
-    const operationItems = [1, 2, 3].map((v, k) => {
+    const operationItems = [1, 2, 3, 4].map((v, k) => {
         return <div className="operation-item mb-4" key={k}>
             <div className="operation-item__badge">
                 <img className="badge__out-img" src={badge} alt="badge"/>

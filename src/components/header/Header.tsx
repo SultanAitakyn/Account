@@ -16,7 +16,7 @@ function Header() {
                             <li className="menu__item"><Link to='/main'>Главная</Link></li>
                             <li className="menu__item"><Link to="/about">О нас</Link></li>
                             <li className="menu__item"><Link to="#">Платежи</Link></li>
-                            <li className="menu__item"><Link to="#">Первеоды</Link></li>
+                            <li className="menu__item"><Link to="#">Переводы</Link></li>
                             <li className="menu__item"><Link to="#">Купля/продажа валют</Link></li>
                             <li className="menu__item"><Link to="#">Заявки</Link></li>
                             <li className="menu__item"><Link to="/contacts">Контакты</Link></li>

@@ -8,7 +8,7 @@ function SideBar() {
         <div className="col-2 d-none d-lg-block">
             <div className="row">
                 <div className="col-12">
-                    <div className="sider__item mb-4">
+                    <div className="sider__item mb-4 p-2">
                         Курс обмена валют:
                     </div>
                     <div className="sider__item mb-4">
