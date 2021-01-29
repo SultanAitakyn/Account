@@ -24,7 +24,7 @@ function Contacts() {
     return (
         <div className="col-md-12 col-lg-10">
             <YMaps>
-                <Map defaultState={{center: [43.24, 76.92], zoom: 13}} height="100%"
+                <Map defaultState={{center: [43.24, 76.92], zoom: 13}} height="100vh"
                      width="100%">
                     <Placemark {...megaPlaceMark} modules={['geoObject.addon.balloon', 'geoObject.addon.hint']}/>
                     <Placemark {...nurlyPlaceMark} modules={['geoObject.addon.balloon', 'geoObject.addon.hint']}/>
