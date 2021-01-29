@@ -13,7 +13,9 @@ function Header() {
                     <h2 className="menu-bar__title">My Account</h2>
                     <nav>
                         <ul className="menu d-flex flex-wrap">
-                            <li className="menu__item"><Link to='/main'>Главная</Link></li>
+                            <li className="menu__item"><Link to='/main'>Главная</Link>
+                                <div></div>
+                            </li>
                             <li className="menu__item"><Link to="/about">О нас</Link></li>
                             <li className="menu__item"><Link to="#">Платежи</Link></li>
                             <li className="menu__item"><Link to="#">Переводы</Link></li>
@@ -29,4 +31,4 @@ function Header() {
         ;
 }
 
-    export default Header;
+export default Header;
