@@ -1,4 +1,4 @@
-.sider__item {
+.side-item {
   height: 210px;
   max-width: 170px;
   font-size: 13px;
@@ -10,29 +10,17 @@
   position: relative;
 }
 
-.item__img {
+.side-item__img {
   width: 100%;
   height: 210px;
   border-radius: 5px;
 }
 
-.item-description {
+.side-item__text {
   position: absolute;
   top: 85%;
   left: 10px;
   font-size: 12px;
   color: white;
   font-weight: 500;
-}
-
-.operation-item__badge {
-  position: relative;
-  margin-top: -3px;
-  display: inline-block;
-}
-
-.badge__inside-img {
-  position: absolute;
-  left: 7px;
-  top: 20px;
 }

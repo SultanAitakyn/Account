@@ -1,3 +1,7 @@
+.header {
+  padding: 90px 0 40px;
+}
+
 .logo {
   width: 97px;
   height: 97px;
@@ -5,17 +9,7 @@
   margin: auto;
 }
 
-ul, li {
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-
-.header {
-  padding: 90px 0 40px;
-}
-
-.menu-bar__title {
+.app-name {
   color: #e3000f;
 }
 
@@ -23,6 +17,12 @@ ul, li {
   border-radius: 5px;
   background-image: -webkit-linear-gradient(90deg, rgb(203, 203, 203) 0%, rgb(231, 231, 231) 100%);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.004);
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .menu__item {
@@ -44,7 +44,7 @@ ul, li {
 }
 
 @media (max-width: 1200px) {
-  .menu-bar__title {
+  .app-name {
     text-align: center;
   }
 }

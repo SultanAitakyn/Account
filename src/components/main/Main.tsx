@@ -4,24 +4,13 @@ import badge from '../../assets/img/badge.png';
 import suitcase from '../../assets/img/suitcase.png';
 
 function Main() {
-    const accountItems = [1, 2, 3, 4].map((v, k) => {
-        return <div className="account-item mb-4" key={k}>
-            <div className="operation-item__badge">
-                <img className="badge__out-img" src={badge} alt="badge"/>
-                <img className="badge__inside-img" src={suitcase} alt="badge"/>
-            </div>
-            <span className="operation-item__title ml-2 mt-2">Мои счета</span>
-            <hr/>
-        </div>
-    });
-
-    const operationItems = [1, 2, 3, 4].map((v, k) => {
+    const accountItems = (text: string) => [1, 2, 3, 4].map((v, k) => {
         return <div className="operation-item mb-4" key={k}>
             <div className="operation-item__badge">
-                <img className="badge__out-img" src={badge} alt="badge"/>
-                <img className="badge__inside-img" src={suitcase} alt="badge"/>
+                <img className="badge-out-img" src={badge} alt="Operation badge"/>
+                <img className="badge-inside-img" src={suitcase} alt="Operation badge suitcase"/>
             </div>
-            <span className="operation-item__title ml-2 mt-2">Шаблоны операций</span>
+            <span className="operation-item__title ml-2 mt-2">{text}</span>
             <hr/>
         </div>
     });
@@ -30,10 +19,10 @@ function Main() {
         <div className="col-md-12 col-lg-10">
             <div className="row">
                 <div className="col-sm-12 col-md-6">
-                    {accountItems}
+                    {accountItems("Мои счета")}
                 </div>
                 <div className="col-sm-12 col-md-6">
-                    {operationItems}
+                    {accountItems("Шаблоны операций")}
                 </div>
             </div>
         </div>

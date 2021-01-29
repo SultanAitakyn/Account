@@ -8,16 +8,16 @@ function SideBar() {
         <div className="col-2 d-none d-lg-block">
             <div className="row">
                 <div className="col-12">
-                    <div className="sider__item mb-4 p-2">
+                    <div className="side-item mb-4 p-2">
                         Курс обмена валют:
                     </div>
-                    <div className="sider__item mb-4">
-                        <img className="item__img" src={auto} alt="credit auto"/>
-                        <span className="item-description">Кредит авто</span>
+                    <div className="side-item mb-4">
+                        <img className="side-item__img" src={auto} alt="credit auto"/>
+                        <span className="side-item__text">Кредит авто</span>
                     </div>
-                    <div className="sider__item">
-                        <img className="item__img" src={deposit} alt="deposit"/>
-                        <span className="item-description">Депозиты</span>
+                    <div className="side-item">
+                        <img className="side-item__img" src={deposit} alt="deposit"/>
+                        <span className="side-item__text">Депозиты</span>
                     </div>
                 </div>
             </div>
