@@ -24,12 +24,12 @@ function Users() {
 
     const usersItems = users.map((v, i) => {
         return <div className="col mb-4" key={i}>
-            <div className="user">
+            <div className="user h-100">
                 <img className="user-avatar" src={user}/>
-                <div className="user__description">Имя: {v.name}</div>
-                <div className="user__description">Логин: {v.username}</div>
-                <div className="user__description">email: {v.email}</div>
-                <div className="user__description">Город: {v.address.city}</div>
+                <div className="user-text">Имя: {v.name}</div>
+                <div className="user-text">Логин: {v.username}</div>
+                <div className="user-text">email: {v.email}</div>
+                <div className="user-text">Город: {v.address.city}</div>
             </div>
         </div>
     });
