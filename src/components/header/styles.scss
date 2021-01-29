@@ -1,7 +1,8 @@
 .logo {
   width: 97px;
   height: 97px;
-  background-color: #e20e12
+  background-color: #e20e12;
+  margin: auto;
 }
 
 ul, li {
@@ -41,4 +42,10 @@ ul, li {
   border-right: 0;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(226, 226, 226, 1) 48%, rgba(255, 255, 255, 0) 100%);
   border-image-slice: 1;
+}
+
+@media (max-width: 1200px) {
+  .menu-bar__title {
+    text-align: center;
+  }
 }
