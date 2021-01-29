@@ -1,3 +1,5 @@
+@import "src/assets/css/_variables.scss";
+
 .header {
   padding: 90px 0 40px;
 }
@@ -5,12 +7,12 @@
 .logo {
   width: 97px;
   height: 97px;
-  background-color: #e20e12;
+  background-color: $primary-color;
   margin: auto;
 }
 
 .app-name {
-  color: #e3000f;
+  color: $primary-color;
 }
 
 .menu {

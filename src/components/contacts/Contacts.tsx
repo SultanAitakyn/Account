@@ -1,7 +1,6 @@
 import React from 'react';
 import {YMaps, Map, Placemark} from 'react-yandex-maps';
 import placeMarkIcon from "../../assets/img/placemark-icon.png";
-import './styles.scss';
 
 const megaPlaceMark = {
     geometry: [43.2638634684, 76.9304891347],

@@ -1,8 +1,10 @@
+@import "src/assets/css/_variables.scss";
+
 .operation-item {
   max-height: 370px;
   height: 370px;
   position: relative;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid white;
   border-radius: 5px;
   background-color: #e8e8e8;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
@@ -11,7 +13,7 @@
 
 .operation-item__title {
   font-size: 24px;
-  color: #e3000f;
+  color: $primary-color;
   font-weight: 500;
 }
 
